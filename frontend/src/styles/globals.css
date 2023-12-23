@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(var(--foreground-rgb));
+  /* height: 100vh; */
+  margin-top: 5em;
+  width: 100vw;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-assignment1{
+  border: 2px solid grey;
+  width: 16rem;
+}
+.header-assignment1{
+  text-align: center;
+  background-color: rgb(209 213 219);
+  padding: 0.5rem;
+}
+
+input[type=number] {
+  border: 1px solid ;
+  padding: 0.2rem;
+  border-radius: 4px;
+  width: 200px;
+}
